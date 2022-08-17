@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+.trade{
+    display: flex;
+    justify-content: center;
+    margin-left: 85px;
+}
+.firstrow{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+@media (max-width: 767px){
+.firstrow {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   align-items: center;
+  }}
+@media (max-width:425px){
+.text-primary{
+    inline-size:auto;
+    width:auto
+    
+}}
